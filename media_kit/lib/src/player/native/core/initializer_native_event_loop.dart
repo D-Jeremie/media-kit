@@ -57,7 +57,7 @@ abstract class InitializerNativeEventLoop {
           MediaKitEventLoopHandlerInitializeDart>(
         'MediaKitEventLoopHandlerInitialize',
       );
-      _initialize?.call();
+    //  _initialize?.call();
     } catch (_) {
       print(
         'media_kit: WARNING: package:media_kit_native_event_loop not found.',
